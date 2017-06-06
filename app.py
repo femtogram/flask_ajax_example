@@ -9,7 +9,7 @@ def index():
 @app.route('/_hit_button')
 def hit_button():
     print('hit button called')
-    return jsonify(result='success!')
+    return jsonify(text='success!')
 
 if __name__ == '__main__':
     app.run(

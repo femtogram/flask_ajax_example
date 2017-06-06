@@ -6,7 +6,7 @@
        $(function() {
            $('button#my_button').click(function() {
                $.getJSON("/_hit_button", function(data) {
-                   $('#text').text(data.result);
+                   $('#text').text(data.text);
                });
                return false;
            });
